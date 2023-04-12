@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+body {
+    width: 100%;
+    max-height: 100vh;
+    font-size: 14px;
+}
+select {
+    height: 36px;
+    border-radius: 4px;
+}
+.container-fluid {
+    width: 100%;
+    max-height: 100vh;
+}
+.scheduleSearch {
+    padding: 16px 20px;
+}
+.scheduleSearch .scheduleForm .scheduleForm--wrap {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.scheduleSearch .scheduleForm .scheduleForm--wrap .scheduleForm--wrap__label {
+    display: flex;
+    justify-content: center;
+}
+.scheduleSearch .scheduleForm .scheduleForm--wrap .scheduleForm--wrap__label label {
+    width: 105px;
+}
+.scheduleSearch .scheduleForm .scheduleForm--wrap button {
+    font-size: 14px;
+}
+.scheduleSearch .scheduleResult {
+    margin: 16px 0px;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border: none;
+}
+.scheduleSearch .scheduleData {
+    overflow: auto;
+    height: calc(100vh - 340px);
+}
+.scheduleSearch .scheduleData table {
+    width: 100%;
+}
+.scheduleSearch .scheduleData table thead tr th {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.scheduleSearch .scheduleData table tbody tr th {
+    min-width: 50px;
+}
+.scheduleSearch .scheduleData table tbody tr td {
+    width: calc(100% / 6);
+    height: 40px;
+}
+.scheduleSearch .scheduleData table tbody tr .manageOption button {
+    width: 80px;
+    height: 36px;
+    font-size: 14px;
+}
+.scheduleSearch .scheduleData table tbody tr > * {
+    padding: 0;
+    margin: 0;
+    top: 50%;
+}
+
+/* css popup thông báo */
+#isToast {
+    display: flex;
+}
+.ToastMsg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.4);
+}
+.ToastMsg .ToastMsg--wrap {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    min-width: 320px;
+}
+.ToastMsg .ToastMsg--wrap .ToastMsg--title {
+    margin-bottom: 16px;
+}
+.ToastMsg .ToastMsg--wrap .ToastMsg--content {
+    min-height: 56px;
+}
+.ToastMsg .ToastMsg--wrap .ToastMsg--btn {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+.ToastMsg .ToastMsg--wrap .ToastMsg--btn .ToastMsg--btn__confirm {
+    margin-left: 12px;
+}
+/* css popup thông báo */

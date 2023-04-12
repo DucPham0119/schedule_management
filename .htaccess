@@ -1,0 +1,7 @@
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /
+
+## To internally redirect /dir/foo to /dir/foo.php
+DirectoryIndex login.php
